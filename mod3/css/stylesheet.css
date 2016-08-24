@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Farsan', cursive;
+	/*image courtesy of pixabay (free high quality images)*/
+	background-image: url("../images/woodfloor.jpg");
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.95em;
+	margin-bottom: 30px;
+	color: #FFF;
+}
+
+h3 {
+	color: #FFF;
+	font-size: 1.7em;
+	margin-bottom: 0px;
+}
+
+p {
+	background-color: #404040;
+	color: #fff;
+	font-size: 1.1em;
+	padding: 10px;
+}
+
+#menu-item {
+	font-size: 1.25em;
+	color: #262626;
+}
+
+#header-nav {
+	background-color: #404040;
+	opacity: 0.85;
+	border-radius: 0;
+	border: 2px solid #ccc;
+	margin: 5px;
+
+}
+
+#section {
+	background-color: #404040;
+	opacity: 0.85;
+	height: 1000px;
+	border: 1px solid #ccc;
+	margin-bottom: 50px;
+}
+
+#nav-list {
+	background-color: #e6e6e6;
+}
+
+.row {
+	margin: 0px;
+}
+
+.food {
+	margin: 0px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
